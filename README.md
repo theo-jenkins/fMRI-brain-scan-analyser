@@ -30,8 +30,11 @@ A MATLAB toolkit to **simulate resting-state fMRI scans** and **detect Cortical 
 Want to know if a rare CSD episode was buried in a public fMRI dataset? Use the detector to scan voxel data for subtle signal waves, or generate test data for your own models.
 
 ## 📷 Preview
+
+To interpret the 4D brain scan, it’s split into three key perspectives and animated frame by frame.
 ![Brain Model Detected](images/stl.file.view.png)
-![CSD Episode over time](images/bold.signals.4.stages.png)
+CSD activity is modeled as a propagating BOLD signal wave, initiating at V3A and advancing through to V5.
+![CSD Episode over time](images/bold.signal.4.stages.png)
 
 ---
 
